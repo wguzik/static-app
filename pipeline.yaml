@@ -21,7 +21,7 @@ jobs:
     displayName: Build and push an image to container registry
     inputs:
       command: buildAndPush
-      repository: static-app 
+      repository: static-app-wg 
       dockerfile: $(Build.SourcesDirectory)/Dockerfile 
       containerRegistry: acr-wg
       tags: |
