@@ -13,8 +13,8 @@ pool:
   vmImage: ubuntu-latest
 
 jobs:
-- job: build
-  displayName: Build
+- job: push
+  displayName: "Push image"
   steps:
 
   - task: Docker@2
